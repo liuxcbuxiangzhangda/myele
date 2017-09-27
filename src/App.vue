@@ -1,13 +1,17 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
     <router-view></router-view>
+    <footGuide></footGuide>
   </div>
 </template>
 
 <script>
+  import footGuide from '@/components/footGuide'
 export default {
-  name: 'app'
+  name: 'app',
+  component:{
+    footGuide
+  }
 }
 </script>
 
