@@ -9,7 +9,7 @@
   import footGuide from '@/components/footGuide'
 export default {
   name: 'app',
-  component:{
+  components:{
     footGuide
   }
 }
