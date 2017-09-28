@@ -3,12 +3,15 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import util from '@/assets/js/util'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
+window.$=require('jquery')
 
-Vue.use(ElementUI)
-
-Vue.config.productionTip = true
+Vue.use(ElementUI);
+/*注册全局函数，common文件里面写的全局要使用的函数*/
+Vue.use(util);
+Vue.config.productionTip = true;
 
 /* eslint-disable no-new */
 new Vue({

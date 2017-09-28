@@ -1,12 +1,12 @@
 <template>
-  <div class="takeOut">
-
+  <div class="personal">
+  <h1>个人中心</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'tackOut',
+  name: 'personal',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'

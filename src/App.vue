@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <div class="warp">
+      <router-view></router-view>
+    </div>
     <footGuide></footGuide>
   </div>
 </template>
@@ -22,6 +24,18 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  min-height: 100%;
+  position: relative;
+  background-color: #F5F5F5;
 }
+  li{
+   list-style: none;
+  }
+  a{
+    text-decoration: none;
+    color: #666;
+  }
+
+
+
 </style>
