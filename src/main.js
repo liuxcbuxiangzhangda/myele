@@ -3,7 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import util from '@/assets/js/util'
+import '@/assets/js/rem'  //配置字体自适应
+import util from '@/assets/js/util' //全局函数
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
 window.$=require('jquery')

@@ -16,8 +16,8 @@ export default {
   }
 }
 </script>
-
 <style>
+  @import "assets/css/common.css"; /*引入全局公用css*/
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -28,14 +28,4 @@ export default {
   position: relative;
   background-color: #F5F5F5;
 }
-  li{
-   list-style: none;
-  }
-  a{
-    text-decoration: none;
-    color: #666;
-  }
-
-
-
 </style>

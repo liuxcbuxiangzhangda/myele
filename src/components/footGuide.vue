@@ -64,7 +64,6 @@
     font-size: 0.45rem;
   }
   .guideitem{
-    font-size: 0.45rem;
     display: inline-block;
     height: 100%;
   }
