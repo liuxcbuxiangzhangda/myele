@@ -13,3 +13,15 @@ a{
   text-decoration: none;
   color: #666;
 }
+/*图片icon的大小设置*/
+.iconfont{
+  font-size: 0.45rem;
+}
+.clearfix:after{
+  content: "";
+  height: 0;
+  width: 0;
+  clear: both;
+  visibility: hidden;
+  display: block;
+}

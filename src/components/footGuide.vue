@@ -22,7 +22,7 @@
   </div>
 </template>
 
-<script>
+<script >
   export default {
     name: 'footGuide',
     data(){
@@ -47,21 +47,17 @@
 
 </script>
 
-<style >
+<style scoped>
   #footGuide{
     position: fixed;
     bottom: 0;
-    padding: 5px 0;
+    padding: 0.05rem 0;
     width: 100%;
     background-color: #fff;
   }
   li{
     float: left;
     width: 25%;
-  }
-
-  .iconfont{
-    font-size: 0.45rem;
   }
   .guideitem{
     display: inline-block;

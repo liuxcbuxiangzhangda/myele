@@ -1,11 +1,15 @@
 <template>
   <div class="takeOut">
+    <!--外卖页面头部-->
     <takeoutHead></takeoutHead>
+    <!--外卖页面录播图-->
+    <takeoutTurn></takeoutTurn>
   </div>
 </template>
 
 <script>
   import takeoutHead from './children/takeoutHead'
+  import takeoutTurn from './children/takeoutTurn'
 export default {
   name: 'tackOut',
   data () {
@@ -14,7 +18,8 @@ export default {
     }
   },
   components:{
-      takeoutHead
+      takeoutHead,
+      takeoutTurn
   }
 }
 </script>
